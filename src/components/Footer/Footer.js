@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <Card className="bg-dark text-white">
-                <Card.ImgOverlay className="bg-dark" style={{ height: '10rem', marginTop: '64rem', textAlign: 'center' }} >
+                <Card.ImgOverlay className="bg-dark" style={{ height: '10rem', marginTop: '.5rem', textAlign: 'center' }} >
 
                     <Card.Title >Get in touch</Card.Title>
                     <Card.Text>To get more information to get in touch with us.
@@ -13,7 +13,6 @@ const Footer = () => {
                             <Form.Control as="textarea" placeholder="Search here " />
                         </FloatingLabel>
                     </Card.Text>
-
                 </Card.ImgOverlay>
             </Card>
         </div>

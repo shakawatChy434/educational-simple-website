@@ -1,18 +1,25 @@
 import React from 'react';
-import './Header.css'
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className="text-black" style={{ marginTop: '15rem', textDecoration: 'none', marginLeft: '20rem' }} >
-            <nav>
-                <div className="nav-details" >
-                    <Link to="/home">Home</Link>
-                    <Link to="/about">About Us</Link>
-                    <Link to="/Service">Service</Link>
-                    <Link to="/contact">Contact Us</Link>
-                </div>
-            </nav>
+        <div>
+            <Navbar bg="dark " expand="lg">
+                <Container>
+                    <Navbar.Brand href="#home" className="text-white">Educational Website</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="ms-auto ">
+                            <Link to="/home" className="me-2 " >Home</Link>
+                            <Link to="/services" className="me-2">Services</Link>
+                            <Link to="/about" className="me-2">About Us</Link>
+                            <Link to="/contact" className="me-2">Contact Us</Link>
+
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </div>
     );
 };

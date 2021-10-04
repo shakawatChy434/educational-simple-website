@@ -1,13 +1,13 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import Services from '../Services/Services';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
         <div>
-
-
             <Card className="bg-dark text-white">
-                <Card.ImgOverlay className="bg-dark" style={{ height: '15rem', textAlign: 'center' }} >
+                <Card.ImgOverlay className="bg-dark" style={{ marginTop: '0rem', height: '15rem', textAlign: 'center' }} >
                     <Card.Title > <h1>Study In USA</h1> </Card.Title>
                     <Card.Title >Archice Your Heigher Education In USA</Card.Title>
                     <Card.Text>
@@ -16,7 +16,8 @@ const Home = () => {
                     <Card.Text>Addmission Going On</Card.Text>
                 </Card.ImgOverlay>
             </Card>
-
+            <Services></Services>
+            <Footer></Footer>
         </div>
     );
 };

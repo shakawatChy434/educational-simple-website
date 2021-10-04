@@ -1,9 +1,10 @@
+import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import './Service.css'
-import { Button, Card, Col } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 
-const Service = (props) => {
-    const { name, price, img } = props.service
+const MoreService = (props) => {
+    const { name, price, img } = props.moreService;
+
     return (
         <Col>
             {/* <Card className="container cart-details" > */}
@@ -17,7 +18,6 @@ const Service = (props) => {
                         <h5>Session Fee:${price}</h5>
                         <small>Click For Addimission:</small> <br />
                         <Button variant="primary">ADDIMISSION </Button>
-
                     </Card.Body>
                 </div>
             </Card>
@@ -25,4 +25,4 @@ const Service = (props) => {
     );
 };
 
-export default Service;
+export default MoreService;
