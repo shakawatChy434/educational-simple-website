@@ -1,7 +1,7 @@
 # Educational Wesite 
 ## Study In USA. 
 
-[Education Website Link is given bleow](Netlify Link)
+[Education Website Link is given bleow](https://sleepy-davinci-439127.netlify.app/services)
 
 
 - Main purposes of this website to ensure a batter study in USA
