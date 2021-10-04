@@ -2,8 +2,8 @@
 ## Study In USA. 
 
  
-
-[It's make with CSS framWork(bootstrap) & React.js .This Education Website Link is given bleow](https://sleepy-davinci-439127.netlify.app/services)
+It's make with CSS framWork(bootstrap) & React.js .
+[Education Website Link is given bleow](https://sleepy-davinci-439127.netlify.app/services)
 
 
 - Main purposes of this website to ensure a batter study in USA
