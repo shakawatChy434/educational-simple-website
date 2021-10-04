@@ -3,8 +3,7 @@
 
  
 It's make with CSS framWork(bootstrap) & React.js .
-[Education Website Link is given bleow]
-(https://sleepy-davinci-439127.netlify.app/)
+[Education Website Link is given bleow](https://sleepy-davinci-439127.netlify.app/)
 
 
 - Main purposes of this website to ensure a batter study in USA
