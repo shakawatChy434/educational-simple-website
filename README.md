@@ -1,5 +1,5 @@
 # Educational Wesite 
-# # Study In USA. 
+## Study In USA. 
 
 [Education Website Link is given bleow](Netlify Link)
 
