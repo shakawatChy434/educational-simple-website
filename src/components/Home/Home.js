@@ -16,6 +16,7 @@ const Home = () => {
                     <Card.Text>Addmission Going On</Card.Text>
                 </Card.ImgOverlay>
             </Card>
+            {/* Rendering Service & Footer part */}
             <Services></Services>
             <Footer></Footer>
         </div>
